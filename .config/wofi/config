@@ -2,8 +2,8 @@ term=alacritty
 location=top
 yoffset=9.5
 lines   = 10
-columns = 3
-width=25%
+columns = 2
+width=50%
 
 prompt=
 show=drun
