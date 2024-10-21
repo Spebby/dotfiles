@@ -207,8 +207,8 @@
     },
 
     "custom/pipewire": {
-        "max-length": 6,
-        "interval": 16,
+        //"max-length": 1,
+        "interval": 1,
         "tooltip": false,
         "format": "{}",
         "return-type": "json",
