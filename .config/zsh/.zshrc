@@ -1,3 +1,4 @@
+# run this if you want to show everyone that you run arc
 ufetch
 
 export EDITOR=/usr/bin/nvim
