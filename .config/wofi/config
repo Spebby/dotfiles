@@ -1,14 +1,16 @@
 term=alacritty
 location=top
-yoffset=180
-width=16%
-lines=11
+yoffset=9.5
+lines   = 10
+columns = 3
+width=25%
 
 prompt=
 show=drun
 insensitive=true
 allow_images=true
 hide_scroll=true
+sort_order=default
 
 aways_parse_args=true
 show_all=true

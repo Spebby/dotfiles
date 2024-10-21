@@ -1,3 +1,7 @@
+@define-color hyprlavender #A57FC4;
+@define-color base rgba(59, 59, 59, 0.6);
+@define-color red #E78284
+
 * {
     font-family: 'Hasklug NFM';
     font-size: 15px;
@@ -6,18 +10,50 @@
 
 
 #window {
-    margin: 0px;
-    border: 2px solid #DCD7BA;
-    border-radius: 10px;
+    margin: 2px;
+    padding: 0px;
+    border: 2px solid @hyprlavender;
+    border-radius: 0px;
+    background-color: @base;
+    animation: slideIn 0.1s ease-in-out both;
 }
 
+@keyframe slideIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.9;
+    }
+}
+
+#inner-box {
+    margin: 5px;
+    padding: 0px;
+    border: none;
+    background-color: @base;
+    animation: fadeIn 0.1s ease-in-out both;
+}
+
+@keyframe fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.9;
+    }
+}
+
+
 #input {
-    margin: 15px;
-    border-radius: 25px;
+    margin: 10px;
+    border-radius: 5px;
 }
 
 #scroll {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #entry {
@@ -27,11 +63,11 @@
 #entry:selected {
     border-radius: 0px;
     border: none;
-    outline: none;
+    outline: !important;
 }
 
 #entry > box {
-    margin-left: 16px;
+    margin-left: 5px;
 }
 
 #entry image {
