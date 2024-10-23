@@ -1,11 +1,13 @@
 @define-color hyprlavender #A57FC4;
 @define-color base rgba(59, 59, 59, 0.6);
-@define-color red #E78284
+@define-color red #E78284;
+@define-color dbase rgba(45, 45, 45, 0.8);
 
 * {
     font-family: 'Hasklug NFM';
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 350;
+	color : white;
 }
 
 
@@ -34,6 +36,7 @@
     border: none;
     background-color: @base;
     animation: fadeIn 0.1s ease-in-out both;
+	color: white;
 }
 
 @keyframe fadeIn {
@@ -50,6 +53,8 @@
 #input {
     margin: 10px;
     border-radius: 5px;
+	background-color: @dbase;
+	border-color: rgb(25, 25, 25);
 }
 
 #scroll {

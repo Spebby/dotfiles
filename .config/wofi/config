@@ -1,4 +1,4 @@
-term=alacritty
+term=kitty
 location=top
 yoffset=9.5
 lines   = 10
