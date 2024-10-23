@@ -51,7 +51,7 @@ button:hover {
 }
 
 #workspaces button {
-    padding: 0 5px;
+    padding: 0;
     background-color: transparent;
     color: #DCD7B8;
 }
@@ -92,13 +92,14 @@ button:hover {
 #scratchpad,
 #custom-pipewire,
 #mpd {
-    padding: 0 10px;
+    padding: 0px 10px;
+	margin:  0px 0px;
     color: #DCD7B8;
 }
 
 #window,
 #workspaces {
-    margin: 0 4px;
+    margin: 0;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -120,6 +121,7 @@ button:hover {
 #custom-pipewire {
     background-color: #7E9CD8;
     color: #DCD7B8;
+	min-width: 42px;
 }
 
 #custom-pipewire.muted {
@@ -173,6 +175,7 @@ label:focus {
 
 #backlight {
     background-color: #90b1b1;
+	min-width: 42px;
 }
 
 #network {
@@ -267,7 +270,7 @@ label:focus {
     background: #00b093;
     color: #740864;
     padding: 0 5px;
-    margin: 0 5px;
+    margin: 0;
     min-width: 16px;
 }
 
@@ -275,7 +278,7 @@ label:focus {
     background: #97e1ad;
     color: #16161D;
     padding: 0 0px;
-    margin: 0 5px;
+    margin: 0;
     min-width: 16px;
 }
 

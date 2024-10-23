@@ -12,9 +12,9 @@
     		"hyprland/window"
 	],
     "modules-right": [
-    		"tray",
-    		"network", 
-		//"bluetooth",
+    	"tray",
+    	"network", 
+		"backlight",
 		"battery", 
 		"custom/pipewire",  
 		"clock"
@@ -124,7 +124,7 @@
     },
 
     "backlight": {
-        // "device": "acpi_video1",
+        "device": "nvidia_0",
         "format": "{percent}% {icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
