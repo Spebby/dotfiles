@@ -1,16 +1,29 @@
 ﻿---
 BasedOnStyle: LLVM
-AlignTrailingComments: 'true'
-ColumnLimit: '80'
+AlignTrailingComments: true
+ColumnLimit: 80
 IncludeBlocks: Regroup
-IndentWidth: '4'
-MaxEmptyLinesToKeep: '2'
-PointerAlignment: Left
-SortIncludes: 'true'
-SpaceAfterCStyleCast: 'true'
+MaxEmptyLinesToKeep: 2
+PointerAlignment: Left # int* arr
+SortIncludes: true
+SpaceAfterCStyleCast: true
 SpaceBeforeParens: ControlStatements
-SpacesBeforeTrailingComments: '1'
-SpacesInParentheses: 'false'
-SpacesInSquareBrackets: 'false'
-UseTab: Never
-...
+SpacesBeforeTrailingComments: 1
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+
+AlwaysBreakBeforeMultilineStrings: false
+
+# short shit
+AllowShortCaseExpressionOnASingleLine: true
+AllowShortBlocksOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortCompoundRequirementOnASingleLine: true
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLambdasOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
